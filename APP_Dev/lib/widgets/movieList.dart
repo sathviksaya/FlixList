@@ -69,12 +69,13 @@ class _MovieListState extends State<MovieList> {
           ),
         ),
         Container(
-          height: 495,
-          child: ListView.builder(
-            itemCount: selectedGenreMovies.length,
-            itemBuilder: (ctx, index) {
-              return MovieCard(selectedGenreMovies[index]);
-            },
+          child: Expanded(
+            child: ListView.builder(
+              itemCount: selectedGenreMovies.length,
+              itemBuilder: (ctx, index) {
+                return MovieCard(selectedGenreMovies[index]);
+              },
+            ),
           ),
         ),
       ],
