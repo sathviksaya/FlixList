@@ -51,5 +51,5 @@ to a detailed page where full information is provided along with the ratings of 
 
 Language/Framework used: Flutter and Dart.
 
--- YouTube Link : https://youtu.be/jrgcPlcD9SA <br>
+-- YouTube Link : https://youtu.be/omYMl4gU8hU <br>
 -- GitHub Link : https://github.com/sathviksaya/movie_app
